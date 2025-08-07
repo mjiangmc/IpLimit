@@ -1,0 +1,13 @@
+# IpLimit 配置文件
+
+# 每个IP地址允许的最大在线玩家数量
+max-players-per-ip: 1
+
+# 绕过IP限制的权限
+bypass-permission: "iplimit.bypass"
+
+# 拒绝连接时显示的消息
+kick-message: "§c请勿多开账号，您最多只能进入{max}个账号！"
+
+# 调试模式（打印更多日志信息）
+debug: false
